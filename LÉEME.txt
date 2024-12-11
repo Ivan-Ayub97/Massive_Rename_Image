@@ -1,0 +1,77 @@
+# Massive Rename Image  
+Desarrollado por Iván Ayub
+
+**Massive Rename Image** es una herramienta gráfica intuitiva, desarrollada en Python utilizando PyQt5, que permite renombrar y gestionar imágenes en lotes de manera eficiente. Con una interfaz moderna y fácil de usar, es ideal tanto para profesionales como para usuarios ocasionales que buscan una solución rápida y efectiva para organizar imágenes.  
+
+---
+
+![Ícono de Massive Rename Image](IconMassiveRenameImage.png)  
+
+---
+
+## Descripción  
+**Massive Rename Image** combina funcionalidades avanzadas de renombrado masivo con una experiencia de usuario fluida y atractiva. Está diseñada para facilitar la organización de imágenes, permitiendo a los usuarios gestionar grandes cantidades de archivos de manera ágil y sencilla.
+
+---
+
+## Características Principales  
+- **Selección Múltiple de Imágenes:** Permite seleccionar múltiples archivos de imagen para su procesamiento simultáneo.  
+- **Vista Previa Integrada:** Visualiza las imágenes seleccionadas directamente en la aplicación.  
+- **Renombrado Masivo:** Renombra automáticamente los archivos de imagen con un prefijo personalizado y opcionalmente con un sufijo o numeración secuencial.  
+- **Conservación de Archivos Originales:** Opción para mantener los archivos originales sin modificaciones.  
+- **Carpeta de Exportación:** Selección sencilla de la carpeta de destino para las imágenes renombradas.  
+- **Barra de Progreso:** Muestra el progreso en tiempo real durante el proceso de renombrado.  
+
+---
+
+## Instrucciones de Uso  
+
+1. **Selecciona Imágenes:** Haz clic en el botón **"Select Image Files"** para elegir las imágenes que deseas renombrar.  
+2. **Visualiza las Imágenes:** Selecciona una imagen de la lista para verla en la vista previa integrada.  
+3. **Introduce un Prefijo:** Escribe el prefijo que deseas agregar a los nuevos nombres de archivo.  
+4. **Selecciona la Carpeta de Exportación:** Haz clic en **"Select Export Folder"** para elegir la ubicación donde se guardarán las imágenes renombradas.  
+5. **Renombra las Imágenes:** Haz clic en **"Rename and Export Files"** para iniciar el proceso de renombrado.  
+6. **Monitorea el Progreso:** Observa el progreso en la barra de estado durante la operación.  
+
+### Escenario de Ejemplo  
+Si tienes una carpeta con fotos de vacaciones, puedes renombrarlas todas con un prefijo como **"Vacaciones_2024"** para facilitar su búsqueda y organización.
+
+---
+
+## Requisitos del Sistema  
+- **Sistema Operativo:** Windows.
+- **Python:** Versión 3.6 o superior.  
+- **Dependencias:**  
+  - PyQt5  
+
+---
+
+## Capturas de Pantalla  
+![Captura de Pantalla de la Aplicación](SSMassiveRenameImage.png)  
+
+---
+
+### Créditos  
+Este software utiliza la poderosa biblioteca [PyQt5](https://pypi.org/project/PyQt5/) para crear una interfaz gráfica rica en funcionalidades. También se utilizan las siguientes bibliotecas de Python:  
+- **os:** Para interactuar con el sistema operativo.  
+- **sys:** Acceso a parámetros y funciones específicos del sistema.  
+- **shutil:** Realiza operaciones de archivos y directorios.  
+- **PyQt5.QtCore:** Funcionalidades clave como hilos y señales.  
+- **PyQt5.QtGui:** Maneja los gráficos, incluidos íconos.  
+- **PyQt5.QtWidgets:** Utilizado para construir la interfaz gráfica, con botones, etiquetas, y diálogos.  
+
+### Contribuciones  
+¡Las contribuciones son bienvenidas! Si deseas contribuir al proyecto, sigue estos pasos:  
+1. Haz un fork del repositorio.  
+2. Crea una nueva rama para tu funcionalidad:  
+   ```bash  
+   git checkout -b feature/nueva-funcionalidad  
+Realiza tus cambios y haz commit:
+bash
+Copiar código
+git commit -m "Agrega nueva funcionalidad"  
+Sube tus cambios:
+bash
+Copiar código
+git push origin feature/nueva-funcionalidad  
+Abre un Pull Request.
