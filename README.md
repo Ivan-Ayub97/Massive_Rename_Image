@@ -53,7 +53,7 @@ If you have a folder with vacation photos, you can rename all of them with a pre
 ---
 
 ## Captures
-![Application Screenshot](SSMassiveRenameImage.png)
+![Application Screenshot](ScreenShotMassiveRenameImage.png)
 
 ---
 
